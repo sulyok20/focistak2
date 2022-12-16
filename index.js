@@ -3,11 +3,14 @@ const fs = require("fs");
 const bodyParser = require("body-parser")
 const uniqid = require('uniqid');
 const sanitizeHtml = require('sanitize-html');
-
-const dataFile = "./data/players.json";
-const port = 3000
-
+const cors = require("cors")
 const app = express()
+const port = 3000
+const dataFile = "./data/players.json";
+
+app.use(cors({
+    origin: "*"
+  }))
 
 //get players by id
 app.get('/players/:id', function (req, res) {

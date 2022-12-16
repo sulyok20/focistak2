@@ -25,5 +25,14 @@
         "club": "passz",
         "age": "69",
         "nationality": "roman"
+    },
+    {
+        "id": "igkq73clbq848xe",
+        "name": "Ronaldinho",
+        "qualification": "10",
+        "position": "csatár",
+        "club": "PSG",
+        "age": "45",
+        "nationality": "Brazil"
     }
 ]
