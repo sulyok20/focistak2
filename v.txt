@@ -1,0 +1,5 @@
+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
+
+git remote add origin https://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@github.com/sulyok20/focistak2.git
+
+git remote set-url origin https://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@github.com/sulyok20/focistak2.git
